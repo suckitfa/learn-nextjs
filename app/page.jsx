@@ -5,6 +5,7 @@
  * @Date: 2024-04-24 15:32:33
  */
 export default function HomePage() {
+    console.log("[Home Page]!")
     return (
         <>
             <h1>Indie Gamer</h1>
