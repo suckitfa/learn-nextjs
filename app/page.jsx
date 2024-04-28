@@ -1,3 +1,6 @@
+'use client';
+import { useEffect } from "react"
+
 /*
  * @Descripttion: 
  * @Version: 1.0
@@ -6,6 +9,9 @@
  */
 export default function HomePage() {
     console.log("[Home Page]!")
+    // useEffect(() => {
+    //     window.alert("Welcome to my site!")
+    // },[]) // use client
     return (
         <>
             <h1>Indie Gamer</h1>
